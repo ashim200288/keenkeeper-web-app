@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Friendship Analytics Dashboard
 
-## Getting Started
+This project is a Friendship Analytics Dashboard built using modern web technologies to track and visualize user interactions with friends. It helps users understand how often they communicate through calls, texts, and video interactions.
 
-First, run the development server:
+The application provides a clean and responsive UI where users can view their friendship timeline, interaction history, and analytics in the form of interactive charts.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+✔ Next.js
+Used to build a fast, scalable, and component-based user interface.
+✔ Next.js App Router
+Handles smooth page navigation between different sections like Timeline, Friend Details, and Analytics.
+✔ Tailwind CSS + UI Library (optional)
+Used for modern, responsive, and utility-first styling to create a clean user experience.
+✔ Recharts
+Used to visualize friendship data through interactive charts such as pie charts and bar charts.
+## Key Features
+✔ Friend list with profile cards
+✔ Interaction timeline (Call, Text, Video)
+✔ Analytics dashboard with charts
+✔ Filter and search functionality
+✔ Persistent data storage using localStorage
+✔ Real-time updates between pages
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Purpose of the Project
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The goal of this project is to help users maintain better relationships by tracking communication habits and visualizing engagement patterns in a simple and intuitive dashboard.
