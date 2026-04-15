@@ -1,13 +1,21 @@
 /* @type {import('next').NextConfig} */
-// const nextConfig = {
-//   /* config options here */
-//   reactCompiler: true,
-// };
 
-// export default nextConfig;
 const nextConfig = {
   images: {
-    domains: ["randomuser.me"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+      {
+        protocol: "http",
+        hostname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+      },
+    ],
   },
 };
 
